@@ -55,21 +55,18 @@ git push origin v1.0.0
 # Description: Copy from CHANGELOG.md
 ```
 
-### 4. Users Install from Marketplace
+## 👥 User Installation
 
-Once published to GitHub, users install with:
+After publishing, users can install your engine using the `skills.sh` CLI:
 
 ```bash
-# Add your repo as a marketplace
-/plugin marketplace add <your-github>/autodev-engine
+npx skills add <your-github-username>/autodev-engine
+```
 
-# Install the plugin
-/plugin install autodev-engine@autodev-engine
+Or specific skills:
 
-# Required: Install rules manually (plugin limitation)
-git clone https://github.com/<your-repo>/autodev-engine.git
-cd autodev-engine
-./install.sh
+```bash
+npx skills add <your-github-username>/autodev-engine --skill autodev-core
 ```
 
 ## Post-Installation Steps

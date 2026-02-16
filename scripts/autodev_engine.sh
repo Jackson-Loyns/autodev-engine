@@ -1,17 +1,3 @@
-#!/bin/bash
-# ============================================================
-# autodev.sh — 无限循环开发引擎
-# 用途: 循环调用 AI CLI 工具完成自动化开发
-# 用法:
-#   ./autodev.sh <次数>        # 指定调用次数
-#   ./autodev.sh infinite      # 无限循环
-#   ./autodev.sh auto          # 根据剩余任务数自动决定
-# 参数:
-#   --cli <claude|codex>       # 选择 CLI 工具（默认 claude）
-#   --model <model_name>       # 选择模型
-#   --log-dir <dir>            # 日志目录（默认 logs/）
-#   --dry-run                  # 仅打印命令，不执行
-# ============================================================
 
 set -euo pipefail
 
