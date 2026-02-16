@@ -26,8 +26,10 @@ Verify these tools are available:
 - [ ] `replace_file_content` / `write_to_file`
 - [ ] `run_command` (for tests/verification)
 - [ ] `grep_search` / `find_by_name`
+- [ ] `search_web` (for latest info/docs)
+- [ ] `read_url_content` (for reading documentation)
 
-If ANY tool is missing, inform user immediately.
+If ANY critical tool is missing, inform user immediately.
 
 ### 4. Verification Plan
 Before starting, state:
