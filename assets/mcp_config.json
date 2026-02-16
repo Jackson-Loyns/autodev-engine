@@ -1,6 +1,4 @@
 {
-    "_comment": "MCP Server Configuration Template for Claude Code / Claude Desktop",
-    "_usage": "Copy relevant sections to ~/.claude/claude_desktop_config.json or project .claude/settings.json",
     "mcpServers": {
         "filesystem": {
             "command": "npx",
@@ -48,13 +46,5 @@
                 "mcp-server-fetch"
             ]
         }
-    },
-    "setup_instructions": {
-        "step_1": "Install Node.js 18+ and npm",
-        "step_2": "Install uv (Python package manager): curl -LsSf https://astral.sh/uv/install.sh | sh",
-        "step_3": "Copy mcpServers config to your Claude settings file",
-        "step_4": "Replace /path/to/your/project with your actual project path",
-        "step_5": "For GitHub MCP: create a personal access token at github.com/settings/tokens",
-        "step_6": "Restart Claude Code / Claude Desktop to load new MCP servers"
     }
 }

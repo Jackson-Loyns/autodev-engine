@@ -1,19 +1,5 @@
-![Autodev Engine Banner](screenshots/banner.png)
-
-<div align="center">
-
 # Autodev Engine (Pro Max)
 ### The Ultimate Autonomous Development Intelligence for AI Agents
-
-[![Release](https://img.shields.io/badge/Release-v1.0.0-blue?style=flat-square)](https://github.com/Jackson-Loyns/autodev-engine/releases)
-[![Intelligence](https://img.shields.io/badge/Reasoning_Rules-5_Agents-purple?style=flat-square)](https://github.com/Jackson-Loyns/autodev-engine)
-[![Skills](https://img.shields.io/badge/Skills-2_Core-green?style=flat-square)](https://github.com/Jackson-Loyns/autodev-engine)
-[![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-
-[![CLI](https://img.shields.io/badge/CLI-skills.sh-black?style=flat-square&logo=github)](https://skills.sh)
-[![Twitter](https://img.shields.io/twitter/follow/JacksonLoyns?style=social)](https://twitter.com/JacksonLoyns)
-
-</div>
 
 ---
 
@@ -22,7 +8,7 @@
 **Add Intelligence to Your Agent:**
 
 ```bash
-npx skills add Jackson-Loyns/autodev-engine
+npx skills add https://github.com/Jackson-Loyns/autodev-engine
 ```
 
 That's it. Your agent just gained the ability to plan, implement, test, and review code autonomously.
