@@ -1,0 +1,52 @@
+{
+    "project": "PROJECT_NAME",
+    "created_at": "TIMESTAMP",
+    "total_tasks": 0,
+    "completed_tasks": 0,
+    "tasks": [
+        {
+            "id": "TASK-001",
+            "title": "Task title — clear, actionable description",
+            "description": "Detailed implementation instructions. Include:\n- What exactly needs to be built\n- Expected behavior\n- Input/output specifications\n- Edge cases to handle",
+            "priority": "high",
+            "status": "pending",
+            "dependencies": [],
+            "category": "feature",
+            "estimated_tokens": 50000,
+            "files_to_modify": [
+                "src/example.ts"
+            ],
+            "acceptance_criteria": [
+                "Feature works as described",
+                "All existing tests pass",
+                "New tests added for this feature",
+                "No lint errors"
+            ],
+            "assigned_session": null,
+            "completed_at": null,
+            "notes": ""
+        },
+        {
+            "id": "TASK-002",
+            "title": "Second task with dependency",
+            "description": "This task depends on TASK-001 being completed first.",
+            "priority": "medium",
+            "status": "pending",
+            "dependencies": [
+                "TASK-001"
+            ],
+            "category": "feature",
+            "estimated_tokens": 30000,
+            "files_to_modify": [
+                "src/example2.ts"
+            ],
+            "acceptance_criteria": [
+                "Integrates with TASK-001 output",
+                "All tests pass"
+            ],
+            "assigned_session": null,
+            "completed_at": null,
+            "notes": ""
+        }
+    ]
+}

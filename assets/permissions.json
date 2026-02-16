@@ -1,0 +1,78 @@
+{
+    "_comment": "Permission configuration for AI agents in this project",
+    "permission_model": {
+        "description": "Full autonomous permissions within project directory only",
+        "scope": "project_directory_only",
+        "mode": "dangerously-skip-permissions"
+    },
+    "claude_code": {
+        "launch_command": "claude --dangerously-skip-permissions",
+        "alternative": {
+            "description": "Use granular permissions via settings.json instead of full skip",
+            "settings_path": ".claude/settings.json",
+            "allowed_tools": [
+                "Bash(npm run *)",
+                "Bash(git *)",
+                "Bash(node *)",
+                "Bash(npx *)",
+                "Bash(cat *)",
+                "Bash(ls *)",
+                "Bash(mkdir *)",
+                "Bash(cp *)",
+                "Bash(mv *)",
+                "Bash(rm *)",
+                "Bash(echo *)",
+                "Bash(jq *)",
+                "Bash(grep *)",
+                "Bash(find *)",
+                "Bash(sed *)",
+                "Bash(awk *)",
+                "Bash(bash scripts/*)",
+                "Bash(pytest *)",
+                "Bash(python3 *)",
+                "Read(*)",
+                "Write(*)",
+                "Edit(*)",
+                "MultiEdit(*)",
+                "ListDir(*)"
+            ],
+            "denied_tools": [
+                "Bash(sudo *)",
+                "Bash(curl * | bash)",
+                "Bash(wget * | bash)",
+                "Bash(rm -rf /)"
+            ]
+        }
+    },
+    "codex_cli": {
+        "launch_command": "codex --full-auto",
+        "description": "Full autonomous mode for Codex CLI"
+    },
+    "file_restrictions": {
+        "writable_paths": [
+            "src/",
+            "lib/",
+            "components/",
+            "pages/",
+            "app/",
+            "tests/",
+            "scripts/",
+            ".dev/",
+            "docs/",
+            "public/",
+            "styles/",
+            "config/"
+        ],
+        "readonly_paths": [
+            "CLAUDE.md",
+            "AGENTS.md",
+            ".gitignore"
+        ],
+        "never_touch": [
+            "node_modules/",
+            ".git/objects/",
+            ".env",
+            ".env.local"
+        ]
+    }
+}

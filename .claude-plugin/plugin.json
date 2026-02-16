@@ -1,0 +1,30 @@
+{
+    "name": "autodev-engine",
+    "version": "1.0.0",
+    "description": "Full-stack autonomous development engine for AI coding agents — spec-driven, task-based incremental development with agents, commands, skills, and rules",
+    "author": "autodev-engine",
+    "homepage": "https://github.com/autodev-engine/autodev-engine",
+    "license": "MIT",
+    "keywords": [
+        "claude-code",
+        "autonomous",
+        "agents",
+        "tdd",
+        "automation",
+        "spec-driven",
+        "task-management"
+    ],
+    "agents": [
+        "./agents/planner.md",
+        "./agents/implementer.md",
+        "./agents/tdd-guide.md",
+        "./agents/code-reviewer.md",
+        "./agents/task-decomposer.md"
+    ],
+    "commands": [
+        "./commands/"
+    ],
+    "skills": [
+        "./skills/"
+    ]
+}
