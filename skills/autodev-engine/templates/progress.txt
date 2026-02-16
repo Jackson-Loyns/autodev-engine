@@ -1,0 +1,13 @@
+# Development Progress Log
+
+This file tracks every development session chronologically.
+Each session corresponds to one task from task.json.
+
+Format:
+=== Session Started: TIMESTAMP ===
+Task: TASK-XXX - Title
+Status: in_progress/completed/failed
+...
+===================================
+
+========================================

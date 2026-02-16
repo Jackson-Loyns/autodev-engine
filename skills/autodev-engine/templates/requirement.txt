@@ -1,0 +1,39 @@
+# Project Requirements
+
+## Overview
+[Describe the project goal and purpose]
+
+## Core Features
+1. Feature 1 description
+   - Expected behavior
+   - Input/output specifications
+2. Feature 2 description
+3. Feature 3 description
+
+## Technical Constraints
+- Language/framework requirements
+- Performance requirements
+- Security requirements
+- Compatibility requirements
+
+## Non-Functional Requirements
+- Scalability needs
+- Maintainability considerations
+- Documentation requirements
+- Testing requirements
+
+## Success Criteria
+- [ ] Criterion 1:明确的可测试标准
+- [ ] Criterion 2
+- [ ] Criterion 3
+
+## Out of Scope
+(List what this project will NOT include)
+
+## Timeline & Priorities
+- **Phase 1 (High Priority)**: Features X, Y, Z
+- **Phase 2 (Medium Priority)**: Features A, B
+- **Phase 3 (Low Priority)**: Features C
+
+## Notes & Context
+(Any additional context, background, or decisions)
