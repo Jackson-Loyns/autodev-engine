@@ -1,0 +1,38 @@
+{
+    "name": "autodev-engine",
+    "version": "2.0.0",
+    "description": "The Ultimate Autonomous Development Engine - orchestrates 5 specialized agents with intelligent routing, context management, and automatic tool calling",
+    "author": {
+        "name": "Jackson Loyns",
+        "url": "https://github.com/Jackson-Loyns"
+    },
+    "homepage": "https://github.com/Jackson-Loyns/autodev-engine",
+    "repository": "https://github.com/Jackson-Loyns/autodev-engine",
+    "license": "MIT",
+    "keywords": [
+        "claude-code",
+        "agents",
+        "automation",
+        "tdd",
+        "code-review",
+        "planning",
+        "workflow",
+        "context-management"
+    ],
+    "agents": [
+        "./agents/planner.md",
+        "./agents/implementer.md",
+        "./agents/tdd-guide.md",
+        "./agents/code-reviewer.md",
+        "./agents/task-decomposer.md"
+    ],
+    "skills": [
+        "./commands/"
+    ],
+    "hooks": [
+        "./hooks/"
+    ],
+    "rules": [
+        "./rules/"
+    ]
+}
